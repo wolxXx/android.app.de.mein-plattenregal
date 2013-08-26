@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScannerActivityLinearLayout"
+    style="@style/MainLayout"
+    tools:context=".ScannerActivity" >
+
+    <Button
+        android:id="@+id/ScannerActivityButtonStartScanner"
+        style="@style/Button"
+        android:onClick="startScanner"
+        android:text="Scanner starten" />
+
+</RelativeLayout>

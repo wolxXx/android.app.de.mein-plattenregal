@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ActivateActivityLayout"
+    tools:context=".ActivateActivity" 
+    style="@style/MainLayout">
+    
+    <ImageView
+            android:id="@+id/ActivateActivitySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" 
+            android:contentDescription="loading image"/>
+
+    <TextView
+        android:id="@+id/ActivateActivityLabelInitKey"
+        android:layout_width="match_parent"
+        android:textColor="#ccc"
+        android:layout_height="wrap_content"
+        android:text="Bitte Setup-Code eingeben!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/ActivateActivityInputInitKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="57dp"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/ActivateActivityButtonStartActivation"
+        style="@style/Button"
+        android:onClick="activateButtonClicked"
+        android:text="Gerät aktivieren" />
+
+</LinearLayout>

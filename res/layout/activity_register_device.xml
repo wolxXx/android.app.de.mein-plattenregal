@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RegisterDeviceActivityLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#0099cc"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RegisterDeviceActivity" >
+
+    <ImageView
+            android:id="@+id/RegisterDeviceeActivitySpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher" 
+            android:contentDescription="loading image"/>
+    
+    <!-- Title -->
+    <TextView
+        android:id="@+id/RegisterDeviceActivityTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerät registrieren"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/RegisterDeviceActivityLabelEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/RegisterDeviceActivityInputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <requestFocus />
+    </EditText>
+    
+    <!-- Password -->
+    <TextView
+        android:id="@+id/RegisterDeviceActivityLabelPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passwort"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/RegisterDeviceActivityInputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+    <!-- Name -->
+    <TextView
+        android:id="@+id/RegisterDeviceActivityLabelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerätename"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/RegisterDeviceActivityInputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    
+    <!-- Submit -->
+    <Button
+        android:id="@+id/RegisterDeviceActivityButtonStartRegister"
+        style="@style/Button"
+        android:onClick="startRegistration"
+        android:text="los" />
+
+</LinearLayout>

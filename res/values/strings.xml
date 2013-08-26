@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mein-plattenregal.de</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="bar">foo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="startButtonText">... und ab!</string>
+    <string name="startPageText">wolxXx.de\nproudly presents:\nmein-plattenregal.de</string>
+    <string name="startPageToastText">Zum Starten, berühren!</string>
+    <string name="title_activity_activate">Gerät aktivieren</string>
+    <string name="title_activity_apitest">API Test</string>
+    <string name="title_activity_index">mein-plattenregal.de</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_show_vinyls">Alle meine Platten</string>
+    <string name="title_activity_add_vinyl">Neue Platte erfassen</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="buttonTextActivateDevice">Gerät aktivieren</string>
+    <string name="buttonTextAddVinyl">Neue Platte erfassen</string>
+    <string name="buttonTextSettings">Einstellungen</string>
+    <string name="buttonTextShowMyVinyls">Zeige meine Platten</string>
+    <string name="title_activity_artist">Alle Platten des Interpreten</string>
+    <string name="title_activity_vinyl">Detailansicht</string>
+    <string name="title_activity_upload">Fotos hochladen</string>
+    <string name="title_activity_register_device">Gerät registrieren</string>
+    <string name="title_activity_scanner">ScannerActivity</string>
+
+</resources>
