@@ -11,7 +11,7 @@ import android.widget.Button;
  * activity for the index page
  * 
  * @author wolxXx
- * @version 0.2
+ * @version 0.3
  */
 public class IndexActivity extends de.mein_plattenregal.logic.Activity {
 
